@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Nov  4 12:38:56 2026
+# Process ID: 9812
+# Current directory: C:/Users/Lenovo/Desktop/最终/rs555_optimized_candidate/rs555_optimized_candidate
+# Command line: xsim.exe -log reports\simulation\fir31_sim.log -mode tcl -source {xsim.dir/fir31_snapshot/xsim_script.tcl}
+# Log file: C:/Users/Lenovo/Desktop/最终/rs555_optimized_candidate/rs555_optimized_candidate/reports/simulation/fir31_sim.log
+# Journal file: C:/Users/Lenovo/Desktop/最终/rs555_optimized_candidate/rs555_optimized_candidate\xsim.jou
+# Running On: LAPTOP-QM4VRU8H, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 16, Host memory: 16944 MB
+#-----------------------------------------------------------
+source xsim.dir/fir31_snapshot/xsim_script.tcl
+# xsim {fir31_snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+FIR_IMPULSE_PASS
+FIR_IDLE_PASS
+FIR_NEGATIVE_IMPULSE_PASS
+FIR31_PIPELINE_TEST_PASS checked=369 latency_cycles=6
+$finish called at time : 4226 ns : File "C:/Users/Lenovo/Desktop/最终/rs555_optimized_candidate/rs555_optimized_candidate/sim/testbench/tb_fir31_pipeline.v" Line 109
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Nov  4 12:38:59 2026...

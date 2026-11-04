@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# xsim v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Nov  4 12:39:10 2026
+# Process ID: 56384
+# Current directory: C:/Users/Lenovo/Desktop/最终/rs555_optimized_candidate/rs555_optimized_candidate
+# Command line: xsim.exe -log reports\simulation\tach_eq_sim.log -mode tcl -source {xsim.dir/tach_eq_snapshot/xsim_script.tcl}
+# Log file: C:/Users/Lenovo/Desktop/最终/rs555_optimized_candidate/rs555_optimized_candidate/reports/simulation/tach_eq_sim.log
+# Journal file: C:/Users/Lenovo/Desktop/最终/rs555_optimized_candidate/rs555_optimized_candidate\xsim.jou
+# Running On: LAPTOP-QM4VRU8H, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 16, Host memory: 16944 MB
+#-----------------------------------------------------------
+source xsim.dir/tach_eq_snapshot/xsim_script.tcl
+# xsim {tach_eq_snapshot} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+TACH_EQ_PASS checked_cycles=14000
+$finish called at time : 140065 ns : File "C:/Users/Lenovo/Desktop/最终/rs555_optimized_candidate/rs555_optimized_candidate/sim/testbench/tb_tach_rpm_equivalence.v" Line 50
+exit
+INFO: [Common 17-206] Exiting xsim at Wed Nov  4 12:39:12 2026...
