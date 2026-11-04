@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2026.1 (64-bit)
+# SW Build 6511674 on Tue Jun 16 11:02:23 MDT 2026
+# IP Build 6504888 on Tue Jun 09 09:05:25 MDT 2026
+# SharedData Build 6501428 on Mon Jun 08 17:34:18 MDT 2026
+# Start of session at: Wed Nov  4 05:19:46 2026
+# Process ID         : 54668
+# Current directory  : D:/RS555_Competition/rs555_optimized_candidate
+# Command line       : vivado.exe -mode batch -source vivado/build_overlay_timing_guard.tcl -log reports/vivado_optimized.log -journal reports/vivado_optimized.jou
+# Log file           : D:/RS555_Competition/rs555_optimized_candidate/reports/vivado_optimized.log
+# Journal file       : D:/RS555_Competition/rs555_optimized_candidate\reports/vivado_optimized.jou
+# Running On         : LAPTOP-QM4VRU8H
+# Platform           : Windows 11
+# Operating System   : 26100
+# Processor Detail   : Intel(R) Core(TM) i7-14650HX
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 16
+# CPU Logical cores  : 24
+# Host memory        : 16944 MB
+# Swap memory        : 38990 MB
+# Total Virtual      : 55935 MB
+# Available Virtual  : 10898 MB
+#-----------------------------------------------------------
+source vivado/build_overlay_timing_guard.tcl

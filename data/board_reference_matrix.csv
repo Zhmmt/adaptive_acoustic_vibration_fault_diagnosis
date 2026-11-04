@@ -1,0 +1,6 @@
+test,source_design,target_or_reference,board_observation,measurement_source,precision_verified
+pwm_wave,optimized,25kHz target,square wave visible,photo_01..04,not yet quantified from scope
+rpm_response,optimized,20 pulses/rev assumption,serial values visible,photo_01..04,no independent RPM reference
+sensor_iic,optimized,ADXL345 DEVID 0xE5 expected,serial output present but details not independently legible,photo_01..04,register readback log pending
+stereo_sound,optimized,stereo samples expected,serial SoundA SoundB fields visible,photo_01..04,raw PCM not attached
+lcd,optimized,displays on attached module,screen lit with changing readings,photo_01..04,photo evidence

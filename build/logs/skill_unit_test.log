@@ -1,0 +1,10 @@
+test_bit_manifest (test_skill.AuditTests.test_bit_manifest) ... ok
+test_hwh_contract (test_skill.AuditTests.test_hwh_contract) ... ok
+test_sim_marker (test_skill.AuditTests.test_sim_marker) ... ok
+test_timing_baseline_fails (test_skill.AuditTests.test_timing_baseline_fails) ... ok
+test_timing_final (test_skill.AuditTests.test_timing_final) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 3.540s
+
+OK

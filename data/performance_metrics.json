@@ -1,0 +1,24 @@
+{
+  "registration_title": "自适应声振融合故障诊断系统",
+  "frequency_mhz": 100,
+  "historical_v6": {
+    "setup_wns_ns": -39.029,
+    "setup_tns_ns": -2462.099,
+    "setup_failing_endpoints": 346,
+    "lut": 5074,
+    "ff": 6033,
+    "dsp": 51,
+    "bram_tiles": 1.5
+  },
+  "latest_dma16": {
+    "setup_wns_ns": 0.294,
+    "setup_tns_ns": 0.0,
+    "setup_failing_endpoints": 0,
+    "hold_whs_ns": 0.02,
+    "lut": 4329,
+    "ff": 6220,
+    "dsp": 84,
+    "bram_tiles": 1.5
+  },
+  "provenance": "build/reports/optimized and build/reports/baseline; latest deployment bit and hwh are matched inside xsa"
+}

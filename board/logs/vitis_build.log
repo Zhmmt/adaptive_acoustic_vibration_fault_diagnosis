@@ -1,0 +1,26 @@
+Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\vitisproject\RS555_WORKSPACE_NEW\rs555_vitis_app\src -b d:\vitisproject\RS555_WORKSPACE_NEW\rs555_vitis_app\build
+[INFO]: Starting Application build process
+[INFO]: Building Application
+[1/3] ==========Application Build Information ==========
+
+Compiler Flags:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=D:/vitisproject
+/RS555_WORKSPACE_NEW/rs555_hw_platform/export/rs555_hw_platform/sw/standalone_ps7_cortexa9_0/Xilinx.
+spec -ID:/vitisproject/RS555_WORKSPACE_NEW/rs555_hw_platform/export/rs555_hw_platform/sw/standalone_
+ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3     -U__clang__  
+
+Linker Flags:       -Wl,-T -Wl,"D:/vitisproject/RS555_WORKSPACE_NEW/rs555_vitis_app/src/lscript.ld" 
+-L"D:/vitisproject/RS555_WORKSPACE_NEW/rs555_vitis_app/src/" -L"D:/vitisproject/RS555_WORKSPACE_NEW/
+rs555_hw_platform/export/rs555_hw_platform/sw/standalone_ps7_cortexa9_0/lib/" -L"/" -Wl,--start-grou
+p,-lxilstandalone,-lxiltimer,-lxil,-lgcc,-lc -Wl,--end-group
+
+===========================================
+[2/3] Building C object CMakeFiles/rs555_vitis_app.elf.dir/main.c.obj
+D:/vitisproject/RS555_WORKSPACE_NEW/rs555_vitis_app/src/main.c: In function 'adxl_read':
+D:/vitisproject/RS555_WORKSPACE_NEW/rs555_vitis_app/src/main.c:340:72: warning: comparison of integer expressions of different signedness: 'unsigned int' and 'int' [-Wsign-compare]
+  340 |     if (XIic_Recv(g_iic.BaseAddress, ADXL_ADDR, data, size, XIIC_STOP) != size)
+      |                                                                        ^~
+[3/3] Linking C executable rs555_vitis_app.elf
+   text	   data	    bss	    dec	    hex	filename
+
+  51431	   1512	  40240	  93183	  16bff	rs555_vitis_app.elf
+

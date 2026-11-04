@@ -1,0 +1,9 @@
+MODULE_PORT_CONTRACT_PASS fir31.v
+MODULE_PORT_CONTRACT_PASS st7789p3_dashboard.v
+MODULE_PORT_CONTRACT_PASS tach_rpm.v
+MODULE_PORT_CONTRACT_PASS dc_blocker.v
+PRESERVED_CORE_PASS motor_pwm.v
+PRESERVED_CORE_PASS rs555_system_core.v
+PRESERVED_CORE_PASS dmic_audio.v
+PRESERVED_CORE_PASS axis_stereo_frame.v
+STATIC_CONTRACT_PASS (does NOT certify Vitis executable or hardware timing)

@@ -1,0 +1,2 @@
+VITIS_ABI_PASS: compared AXI base/high addresses and selected IP settings.
+Still check PS register semantics, XDC pins, DMA frame data and board operation; this is not a hardware test.

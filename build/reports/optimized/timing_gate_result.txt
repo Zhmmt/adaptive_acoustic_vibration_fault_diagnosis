@@ -1,0 +1,4 @@
+SETUP_WNS_NS=0.294
+HOLD_WHS_NS=0.020
+CLOCK_TARGET_MHZ=100
+NOTE=Passing these two checks does not replace interface/board verification.

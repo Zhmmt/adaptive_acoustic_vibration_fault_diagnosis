@@ -1,0 +1,7 @@
+stage,wns_ns,tns_ns,failing_endpoints,evidence
+v6_original,-39.029,-2462.099,346,baseline original
+fir31_intermediate,-5.261,-534.331,202,historical routed screenshot
+lcd_intermediate,-4.843,-451.573,199,historical routed screenshot
+tach_intermediate,-4.389,-310.397,143,historical routed screenshot
+previous_dma14,0.058,0,0,archived separate build
+latest_dma16,0.294,0,0,latest routed report
