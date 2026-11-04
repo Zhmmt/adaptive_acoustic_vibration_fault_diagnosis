@@ -1,0 +1,71 @@
+{
+  "bytes": 16384,
+  "channel_a": {
+    "ac_rms": 20.630617336221036,
+    "max": 0,
+    "mean": -81.736328125,
+    "min": -143,
+    "nonzero_samples": 4093,
+    "rms": 84.29976101408147
+  },
+  "channel_b": {
+    "ac_rms": 19.652496749776724,
+    "max": 1,
+    "mean": -75.10400390625,
+    "min": -147,
+    "nonzero_samples": 4094,
+    "rms": 77.63267373503247
+  },
+  "channel_correlation": 0.9766177561603586,
+  "channel_difference_rms": 7.9940468572713534,
+  "check": "PASS",
+  "duration_s_nominal": 0.256,
+  "first_10_pairs": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      -5
+    ],
+    [
+      -110,
+      -100
+    ],
+    [
+      -110,
+      -100
+    ],
+    [
+      -110,
+      -101
+    ],
+    [
+      -112,
+      -102
+    ],
+    [
+      -112,
+      -103
+    ],
+    [
+      -111,
+      -102
+    ]
+  ],
+  "identical_sample_pairs": 113,
+  "nominal_rate_hz": 16000.0,
+  "nonzero_words": 4094,
+  "scope": "Binary shape and signed PCM decoding only; no audio quality or sensor accuracy assertion",
+  "sha256": "91a6a4f66269d430add33aa63591212940d73a586845afcbdf98f61e2eb26a6e",
+  "word_count": 4096
+}

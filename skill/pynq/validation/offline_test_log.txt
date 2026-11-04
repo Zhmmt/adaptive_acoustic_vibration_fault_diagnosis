@@ -1,0 +1,32 @@
+test_hwh_and_dma16 (test_case_hwh.RealHwhTests.test_hwh_and_dma16) ... ok
+test_14bit_rejected (test_dma_contract.DmaContractTests.test_14bit_rejected) ... ok
+test_16bit_full_frame (test_dma_contract.DmaContractTests.test_16bit_full_frame) ... ok
+test_sg_rejected (test_dma_contract.DmaContractTests.test_sg_rejected) ... ok
+test_all_source_snapshots (test_evidence_integrity.EvidenceIntegrityTests.test_all_source_snapshots) ... ok
+test_bit_pair_validation (test_overlay_audit.AuditTests.test_bit_pair_validation) ... ok
+test_generated_contract (test_overlay_audit.AuditTests.test_generated_contract) ... ok
+test_good_contract (test_overlay_audit.AuditTests.test_good_contract) ... ok
+test_malformed_xml (test_overlay_audit.AuditTests.test_malformed_xml) ... ok
+test_missing (test_overlay_audit.AuditTests.test_missing) ... ok
+test_overlap (test_overlay_audit.AuditTests.test_overlap) ... ok
+test_wrong_width (test_overlay_audit.AuditTests.test_wrong_width) ... ok
+test_known_words (test_pcm_decode.DecodeTests.test_known_words) ... ok
+test_no_truncated_data (test_pcm_decode.DecodeTests.test_no_truncated_data) ... ok
+test_summary (test_pcm_decode.DecodeTests.test_summary) ... ok
+test_invalid_frame (test_real_capture.RealCaptureTests.test_invalid_frame) ... ok
+test_uploaded_frame (test_real_capture.RealCaptureTests.test_uploaded_frame) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.027s
+
+OK
+axi_dma_audio           axi_dma   0x40400000-0x4040ffff
+axi_gpio_adxl_sw        axi_gpio  0x41240000-0x4124ffff
+axi_gpio_ctrl           axi_gpio  0x41200000-0x4120ffff
+axi_gpio_status0        axi_gpio  0x41210000-0x4121ffff
+axi_gpio_status1        axi_gpio  0x41220000-0x4122ffff
+axi_gpio_status2        axi_gpio  0x41230000-0x4123ffff
+axi_iic_adxl            axi_iic   0x41600000-0x4160ffff
+RESULT: PASS  IPs: 12
+NOTE: 5 other HWH modules not constrained (e.g. interconnect/PS)
+NOTE: A BIT/HWH filename/hash check cannot prove they came from the same implementation run.

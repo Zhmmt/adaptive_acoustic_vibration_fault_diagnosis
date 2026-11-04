@@ -1,0 +1,54 @@
+{
+  "role": "Input snapshots used for documentation/contract alignment; not build success proof",
+  "hash_algorithm": "sha256",
+  "snapshots": {
+    "standalone_main_c": {
+      "source": "examples/rs555_case/latest_main.c",
+      "sha256": "7241a8cba0ff2939f6ac521342fc4d1396f404974aec13ab293b279792dafbfa"
+    },
+    "archived_vitis_main_c": {
+      "source": "examples/rs555_case/archived_main.c",
+      "sha256": "62db332f49ad9cf25737b22b215ffbd6d3256334901fa64eaabd5e9f4a9a6e98"
+    },
+    "vivado_build_overlay_tcl": {
+      "source": "examples/rs555_case/build_overlay.tcl",
+      "sha256": "5a7261b42dad4b2e5f0671f4c2c17fbf48d1d13f97e3b26ecdae57f52b564416"
+    },
+    "rtl_motor_pwm_v": {
+      "source": "examples/rs555_case/motor_pwm.v",
+      "sha256": "a9f9bc0392b262d85c72d5733737f912dfe1246c8db3197da387eb64b90b8c36"
+    },
+    "rtl_system_core_v": {
+      "source": "examples/rs555_case/rs555_system_core.v",
+      "sha256": "5f3be2f3ef11b706a1fc8514715d4595e22f29feae9267f2620691f230084436"
+    },
+    "deployed_hwh": {
+      "source": "examples/rs555_case/rs555_final.hwh",
+      "sha256": "792b8048a042d074cda08d227ef72946bd1e6578f89c23fd33bbf9f7114b41c9"
+    },
+    "deployed_bit": {
+      "source": "examples/rs555_case/rs555_final.bit",
+      "sha256": "6489162f0de50b9518736136477c05d83dde119c786019b5e233bf53d377230b"
+    },
+    "pynq_capture_bin": {
+      "source": "validation/pynq_z2/rs555_audio_frame.bin",
+      "sha256": "91a6a4f66269d430add33aa63591212940d73a586845afcbdf98f61e2eb26a6e"
+    },
+    "pynq_notebook": {
+      "source": "validation/pynq_z2/skill_overlay_validation.ipynb",
+      "sha256": "131976b348ed2154a6d455c4a9ad99cfb7adaffdc4b00eca9936fb38f0862ef0"
+    },
+    "axis_stereo_frame_rtl": {
+      "source": "examples/rs555_case/axis_stereo_frame.v",
+      "sha256": "6a22bddbbb9f31fb3bacb42fc8c9a7d19092dbd40e8d0aabe97bf568cf66c6d6"
+    },
+    "old_dma14_hwh": {
+      "source": "validation/pynq_z2/old_dma14.hwh",
+      "sha256": "9e88bc768a588656c4ac2371cdc703ac56c07aa2379e61eb32de8d2b6185601e"
+    },
+    "boot_failure_log": {
+      "source": "validation/pynq_z2/boot_failure.log",
+      "sha256": "e62c9bb13d909d7cda4ffbe83dfacbe7e02572bb7cdfab81fc2b8757265a0602"
+    }
+  }
+}

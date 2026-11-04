@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "title": "Review and freeze this baseline before checking later builds",
+  "device": {
+    "DEVICE": "7z020",
+    "PACKAGE": "clg400"
+  },
+  "instances": {
+    "axi_gpio_0": {
+      "type": "axi_gpio",
+      "vlnv": "xilinx.com:ip:axi_gpio:2.0",
+      "params": {
+        "C_GPIO_WIDTH": "16",
+        "C_IS_DUAL": "0",
+        "C_GPIO2_WIDTH": "32"
+      },
+      "C_BASEADDR": "0x41200000",
+      "C_HIGHADDR": "0x4120ffff"
+    }
+  }
+}

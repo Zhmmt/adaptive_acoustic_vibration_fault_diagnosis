@@ -1,0 +1,1 @@
+3fd1d7dbf9531b65270b33b0eeed8567c1b4c86fc2b2d975a75d202d976f7e5a  validation/pynq_z2/cli_test/audio_words.bin

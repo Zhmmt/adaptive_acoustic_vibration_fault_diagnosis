@@ -1,0 +1,6 @@
+/usr/local/share/pynq-venv/lib/python3.8/site-packages/pynq/overlay.py:100: UserWarning: IP axi_iic_adxl is of type xilinx.com:ip:axi_iic:2.1 and driver found for [xilinx.com:ip:axi_iic:2.0]. Use ignore_version=True to use this driver.
+  warnings.warn(message, UserWarning)
+Metadata: S2MM length width=16, max_bytes=65535; programming PL.
+DMASR=0x00001002, transferred=16384, nonzero=4093
+Saved: validation/pynq_z2/cli_test/audio_words.bin
+No audio fidelity conclusion is implied by a successful DMA transfer.

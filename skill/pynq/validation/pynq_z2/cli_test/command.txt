@@ -1,0 +1,8 @@
+python3 pynq_s2mm_capture.py \
+  --bit rs555_final.bit \
+  --dma axi_dma_audio \
+  --words 4096 \
+  --timeout 3 \
+  --out audio_words.bin \
+  --download \
+  --ack-safe
