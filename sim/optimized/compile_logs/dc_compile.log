@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RS555_Competition/rs555_optimized_candidate/rtl/dc_blocker.v" into library work
+INFO: [VRFC 10-311] analyzing module dc_blocker
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RS555_Competition/rs555_optimized_candidate/sim/testbench/tb_dc_blocker_sparse.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_dc_blocker_sparse

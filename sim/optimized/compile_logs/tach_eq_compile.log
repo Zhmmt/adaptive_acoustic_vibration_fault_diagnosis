@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RS555_Competition/rs555_optimized_candidate/rtl/tach_rpm.v" into library work
+INFO: [VRFC 10-311] analyzing module tach_rpm
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RS555_Competition/rs555_optimized_candidate/sim/testbench/tach_rpm_original_reference.v" into library work
+INFO: [VRFC 10-311] analyzing module tach_rpm_reference
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RS555_Competition/rs555_optimized_candidate/sim/testbench/tb_tach_rpm_equivalence.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_tach_rpm_equivalence

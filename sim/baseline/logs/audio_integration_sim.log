@@ -1,0 +1,7 @@
+run all
+AXIS_FRAME_PASS frame=1 beats=4
+AXIS_FRAME_PASS frame=2 beats=4
+AXIS_FRAME_PASS frame=3 beats=4
+AXIS_FRAME_PASS frame=4 beats=4
+AUDIO_INTEGRATION_TEST_PASS pcm=16 axis_beats=16 frames=4 stall_cycles=8
+$finish called at time : 5225 ns : File "D:/rs555_sim/rs555_pwm_sim/rs555_pwm_sim.srcs/sim_1/imports/sim/tb_audio_integration.v" Line 88

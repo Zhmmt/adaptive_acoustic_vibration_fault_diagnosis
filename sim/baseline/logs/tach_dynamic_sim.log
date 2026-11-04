@@ -1,0 +1,14 @@
+run all
+DYNAMIC_PASS startup_100hz expected=300 measured=300
+DYNAMIC_PASS ion_100_to_500hz expected=1500 measured=1500
+DYNAMIC_PASS ion_500_to_200hz expected=600 measured=600
+DYNAMIC_PASS stop_to_zero expected=0 measured=0
+DYNAMIC_PASS pulse_seen_sticky_by_design
+DYNAMIC_PASS reset_output
+DYNAMIC_PASS litches_filtered expected=0 measured=0
+DYNAMIC_PASS glitch_did_not_set_pulse_seen
+DYNAMIC_PASS s_after_glitches expected=300 measured=300
+DYNAMIC_PASS reset_output
+DYNAMIC_PASS fter_reset_300hz expected=900 measured=900
+TACH_DYNAMIC_TEST_PASS
+$finish called at time : 14002336 ns : File "D:/rs555_sim/rs555_pwm_sim/rs555_pwm_sim.srcs/sim_1/imports/Desktop/tb_tach_rpm_dynamic.v" Line 121

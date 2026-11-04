@@ -1,0 +1,12 @@
+run all
+CIC3_TEST_BEGIN R=8 W=40
+CIC_PASS output=1 sample=8 value=120
+CIC_PASS output=2 sample=16 value=456
+CIC_PASS output=3 sample=24 value=512
+CIC_PASS output=4 sample=32 value=512
+CIC_PASS output=5 sample=40 value=512
+CIC_PASS output=10 sample=80 value=-400
+CIC_PASS output=20 sample=160 value=0
+CIC_PASS output=30 sample=32 value=170
+CIC3_DECIMATOR_TEST_PASS checked_outputs=30
+$finish called at time : 2710 ns : File "D:/rs555_sim/rs555_pwm_sim/rs555_pwm_sim.srcs/sim_1/imports/Desktop/tb_cic3_decimator.v" Line 123

@@ -1,0 +1,16 @@
+run all
+FIR31_TEST_BEGIN input_width=16 taps=31 q15_shift=15
+FIR_RESET_PASS count=1
+FIR_IMPULSE_PASS
+FIR_IDLE_PASS
+FIR_RESET_PASS count=2
+FIR_NEGATIVE_IMPULSE_PASS
+FIR_RESET_PASS count=3
+FIR_DC_PASS steady=11999
+FIR_ALTERNATING_PASS
+FIR_EXTREME_PASS
+FIR_MIXED_PASS
+FIR_RESET_PASS count=4
+FIR_RESET_HISTORY_PASS
+FIR31_TEST_PASS checked_samples=346 checked_idle=27 checked_resets=4
+$finish called at time : 3776 ns : File "D:/rs555_sim/rs555_pwm_sim/rs555_pwm_sim.srcs/sim_1/imports/Desktop/tb_fir31.v" Line 129

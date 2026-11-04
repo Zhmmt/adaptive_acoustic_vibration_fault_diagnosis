@@ -1,0 +1,10 @@
+run all
+TACH_PASS input=100Hz expected=300 actual=300
+TACH_PASS input=200Hz expected=600 actual=600
+TACH_PASS input=300Hz expected=900 actual=900
+TACH_PASS input=400Hz expected=1200 actual=1200
+TACH_PASS input=500Hz expected=1500 actual=1500
+TACH_PASS input=0Hz expected=0 actual=0
+RESET_OUTPUT_PASS
+TACH_RPM_TEST_PASS
+$finish called at time : 12001305 ns : File "D:/rs555_sim/rs555_pwm_sim/rs555_pwm_sim.srcs/sim_1/imports/Desktop/tb_tach_rpm.v" Line 76

@@ -1,0 +1,10 @@
+run all
+BTN3_START_PASS
+BTN0_MINUS_5_PASS duty=45%
+BTN2_STOP_PASS
+RESTART_PASS
+LOWER_BOUND_PASS duty=0%
+UPPER_BOUND_PASS duty=100%
+ESTOP_AND_RESTART_PASS
+MOTOR_PWM_BUTTONS_TEST_PASS
+$finish called at time : 324610 ns : File "D:/rs555_sim/rs555_pwm_sim/rs555_pwm_sim.srcs/sources_1/imports/第三轮/tb_motor_pwm_buttons.v" Line 116

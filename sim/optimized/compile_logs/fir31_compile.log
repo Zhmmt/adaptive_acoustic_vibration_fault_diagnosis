@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RS555_Competition/rs555_optimized_candidate/rtl/fir31.v" into library work
+INFO: [VRFC 10-311] analyzing module fir31
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RS555_Competition/rs555_optimized_candidate/sim/testbench/tb_fir31_pipeline.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_fir31_pipeline

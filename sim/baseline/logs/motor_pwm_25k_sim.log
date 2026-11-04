@@ -1,0 +1,5 @@
+run all
+DUTY=50% PERIOD=40000 ns HIGH=20000 ns FREQ=25000.0 Hz
+DUTY=55% PERIOD=40000 ns HIGH=22000 ns FREQ=25000.0 Hz
+MOTOR_PWM_25K_TEST_PASS
+$finish called at time : 160046 ns : File "D:/rs555_sim/rs555_pwm_sim/rs555_pwm_sim.srcs/sources_1/imports/rs555_sim/tb_motor_pwm_25k.v" Line 75

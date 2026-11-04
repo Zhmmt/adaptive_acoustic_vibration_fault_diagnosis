@@ -1,0 +1,9 @@
+run all
+DC_BLOCKER_TEST_BEGIN alpha_q15=32604
+DC_RESET_PASS
+DC_STEP_DECAY_PASS first=10000 after_1001_samples=0
+DC_PAUSE_PASS
+DC_SIGNED_AND_SATURATION_PASS
+DC_RESET_HISTORY_PASS
+DC_BLOCKER_TEST_PASS checked_samples=1162 checked_cycles=1178
+$finish called at time : 11786 ns : File "D:/rs555_sim/rs555_pwm_sim/rs555_pwm_sim.srcs/sim_1/imports/Desktop/tb_dc_blocker.v" Line 117

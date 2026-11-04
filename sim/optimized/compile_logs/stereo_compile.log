@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RS555_Competition/rs555_optimized_candidate/rtl/cic3_decimator.v" into library work
+INFO: [VRFC 10-311] analyzing module cic3_decimator
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RS555_Competition/rs555_optimized_candidate/rtl/dc_blocker.v" into library work
+INFO: [VRFC 10-311] analyzing module dc_blocker
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RS555_Competition/rs555_optimized_candidate/rtl/fir31.v" into library work
+INFO: [VRFC 10-311] analyzing module fir31
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RS555_Competition/rs555_optimized_candidate/rtl/dmic_audio.v" into library work
+INFO: [VRFC 10-311] analyzing module dmic_audio
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RS555_Competition/rs555_optimized_candidate/rtl/axis_stereo_frame.v" into library work
+INFO: [VRFC 10-311] analyzing module axis_stereo_frame
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/RS555_Competition/rs555_optimized_candidate/sim/testbench/tb_audio_integration.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_audio_integration
